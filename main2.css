@@ -109,7 +109,7 @@ body:after{
 }
 
 .container .card1 .content h1{
-    font-size: 1.8em;
+    font-size: 1em;
     color: #fff;
     margin: 20px 0 0 0;
     z-index: 1;
@@ -145,7 +145,7 @@ h2{
 }
 
 .container0 .card2{
-    position: relative;
+    position: static;
     width: 710px;
     height: 450px;
     margin: 40px 40px 40px 115px;
@@ -180,17 +180,4 @@ h2{
     font-size: 1em;
     color: #fff;
     font-weight: 300;
-}
-
-.container0 .card2 .content h4{
-    color: black;
-    display: inline-block;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 10px;
-    border-radius: 30px;
-    overflow: hidden;
-    transition: 0.1s;
-    background: #fff;
-    box-shadow: 0 0 30px #999;
 }
