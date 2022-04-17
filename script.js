@@ -67,7 +67,7 @@ function postData() {
 	
 	console.log(data)
 	
-	fetch(`api_url`, {
+	fetch(api_url, {
 		method: "POST",
 		headers: {
 		  'Accept': 'application/json',
